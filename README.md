@@ -20,8 +20,8 @@
 
  There are 5 Heroes type:
 
- For Gunsliger(Glen):   copy Hero3\*.dat Hero2\ , Use Noesis and browse Hero2 directory for model preview
- For Spellsword(Isabella) copy Hero6\*.dat Hero5\, Use Noesis and browse Hero5 directory for model preview
+ For Gunsliger(Glen):   copy *.dat from Here3\ to Hero2\ , Use Noesis and browse Hero2 directory for model preview
+ For Spellsword(Isabella) copy *.dat from Hero6\ to Hero5\, Use Noesis and browse Hero5 directory for model preview
  Follow same rule to preview the other 3 heroes. 
 
  The best model file format for exporting to Blender 3D is Noesis gltf format. It adds named prefix to exported files.
