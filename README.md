@@ -4,19 +4,22 @@
  
  Preview *.vap model file with texture binding by alanm1
 
- ## Credits:
-  Luigi Auriemma:  KUF2 2014 pkg file unpack bms script     
-  The arthor of .d3dparametric model viewer from Xentax
-  Rich Whitehouse: Noesis tools
-   
  Version 0.1:
  Support  2014 KUF 2 Asia client hero models (in Hero*.pkg files, they are not encrypted).
+
+ ## Credits:
+   Luigi Auriemma:  KUF2 2014 pkg file unpack bms script     
+  
+   The arthor of .d3dparametric model viewer from Xentax
+  
+   Rich Whitehouse: Noesis tools
+   
   
 ## Installation:
    Copy this Noesis .py plugin to Noesis's plugins/python/ directory
 ## Usage:
-   Use QuickBMS and kuf2_2014.bms to unpak Hero*.pkg file to their own directory.
-   Most *.vap file contains texture and model. Each hero has a .dat file contains model/texture assignment
+   Use QuickBMS and kuf2_2014.bms to unpack Hero*.pkg file to their own directory.
+   Most *.vap file contains textures and models. Each hero has a .dat file contains model/texture assignment
 
  There are 5 Hero characters:
 
