@@ -18,7 +18,7 @@
    Use QuickBMS and kuf2_2014.bms to unpak Hero*.pkg file to their own directory.
    Most *.vap file contains texture and model. Each hero has a .dat file contains model/texture assignment
 
- There are 5 Heroes type:
+ There are 5 Hero types:
 
  For Gunsliger(Glen):   copy *.dat from Here3\ to Hero2\ , Use Noesis and browse Hero2 directory for model preview
  For Spellsword(Isabella) copy *.dat from Hero6\ to Hero5\, Use Noesis and browse Hero5 directory for model preview
