@@ -4,7 +4,8 @@
  
  Preview *.vap model file with texture binding by alanm1
 
- Special thanks:
+ ## Special thanks:
+ 
        Luigi Auriemma:  KUF2 2014 pkg file unpack bms script     
        The arthor of .d3dparametric model viewer. from Xentax
    
