@@ -11,7 +11,7 @@
  Version 0.1:
  Support  2014 KUF 2 Asia client hero models (in Hero*.pkg files, they are not encrypted).
   
-## Installaion:
+## Installation:
    Copy this Noesis .py plugin to Noesis's plugins/python/ directory
 ## Usage:
    Use QuickBMS and kuf2_2014.bms to unpak Hero*.pkg file to their own directory.
