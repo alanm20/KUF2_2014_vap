@@ -24,3 +24,9 @@
  Follow same rule to preview the other 3 heroes. 
 
  The best model file format for exporting to Blender 3D is Noesis gltf format. It adds named prefix to exported files.
+
+![alt text](https://github.com/alanm20/KUF2_2014_vap/blob/main/images/preview1.png?raw=true)
+
+![alt text](https://github.com/alanm20/KUF2_2014_vap/blob/main/images/preview2.png?raw=true)
+
+![alt text](https://github.com/alanm20/KUF2_2014_vap/blob/main/images/image.png?raw=true)
