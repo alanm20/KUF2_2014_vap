@@ -12,7 +12,7 @@
  Support  2014 KUF 2 Asia client hero models (in Hero*.pkg files, they are not encrypted).
   
 ## Installaion:
-   Copy this Noesis .py plugin to <Noesis plugins/python/ directory
+   Copy this Noesis .py plugin to Noesis's plugins/python/ directory
 ## Usage:
    Use QuickBMS and kuf2_2014.bms to unpak Hero*.pkg file to their own directory.
    Most *.vap file contains texture and model. Each hero has a .dat file contains model/texture assignment
@@ -24,6 +24,7 @@
  Follow same rule to preview the other 3 heroes. 
 
  The best model file format for exporting to Blender 3D is Noesis gltf format. It adds named prefix to exported files.
+ In Blender use File|Import|GLTF 2.0 to import models. Body and limb model has 4 LOD meshes. You can delete the 3 low detail meshes. 
 
 ![alt text](https://github.com/alanm20/KUF2_2014_vap/blob/main/images/preview1.png?raw=true)
 
