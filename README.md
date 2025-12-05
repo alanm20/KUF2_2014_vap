@@ -20,11 +20,12 @@
 
  There are 5 Hero types:
 
- For Gunsliger(Glen):   copy *.dat from Here3\ to Hero2\ , Use Noesis and browse Hero2 directory for model preview
+ For Gunsliger(Glen):   copy *.dat from Hero3\ to Hero2\ , Use Noesis and browse Hero2 directory for model preview
  For Spellsword(Isabella) copy *.dat from Hero6\ to Hero5\, Use Noesis and browse Hero5 directory for model preview
  Follow same rule to preview the other 3 heroes. 
 
- The best model file format for exporting to Blender 3D is Noesis gltf format. It adds named prefix to exported files.
+ The best model file format for exporting to Blender 3D is Noesis gltf format. It adds named prefix to exported files, that allows exporting all body parts to the same destination without texture name conflicting each others. 
+
  In Blender use File|Import|GLTF 2.0 to import models. Body and limb model has 4 LOD meshes. You can delete the 3 low detail meshes. 
 
 ![alt text](https://github.com/alanm20/KUF2_2014_vap/blob/main/images/preview1.png?raw=true)
