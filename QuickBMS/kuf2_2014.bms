@@ -1,0 +1,44 @@
+comtype zlib
+idstring "BEAR"
+get BNAME basename
+string BNAME += "/"
+get DUMMY long
+get FILES long
+get DUMMY long
+set EMPTY 65536
+for i = 0 < FILES
+    get DUMMY long
+    get DUMMY long
+    get ZSIZE long
+    get SIZE long
+    get START long
+    get DUMMY long
+    xmath START "16+(FILES*24)+(START*8)"
+    savepos NEXTFILE
+    goto START
+    log TEMPORARY_FILE 0 0
+    append
+    do
+        get OFFSET long
+        get CZSIZE short
+        get CSIZE short
+        if CSIZE == 0
+             if CZSIZE == 0
+                 log TEMPORARY_FILE OFFSET EMPTY
+             else
+                 clog TEMPORARY_FILE OFFSET CZSIZE EMPTY
+             endif
+        else
+            if CZSIZE == 0
+                log TEMPORARY_FILE OFFSET CSIZE
+            else
+                clog TEMPORARY_FILE OFFSET CZSIZE CSIZE
+            endif
+        endif
+    while CSIZE == 0
+    append
+    open "." TEMPORARY_FILE 1
+    get FILESIZE asize 1
+    log BNAME 0 FILESIZE 1
+    goto NEXTFILE
+next i
