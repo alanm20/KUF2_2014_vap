@@ -12,7 +12,7 @@
  Support  2014 KUF 2 Asia client hero models (in Hero*.pkg files, they are not encrypted).
   
 ## Installaion:
-   Copy this Noesis .py plugin to <Noesis dir>/plugins/python/ directory
+   Copy this Noesis .py plugin to <Noesis plugins/python/ directory
 ## Usage:
    Use QuickBMS and kuf2_2014.bms to unpak Hero*.pkg file to their own directory.
    Most *.vap file contains texture and model. Each hero has a .dat file contains model/texture assignment
