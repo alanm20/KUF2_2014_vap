@@ -46,7 +46,7 @@
      
  - When a desired combination of character option is display in preview window, use Noesis "File|Export from Preview" menu to export character.
 
- - Models may not look smooth in prview due to there are 4 level of detail (LOD) meshes overlaping. Delete the 3 low detail meshes after model imported into Blender3D.
+ - Models may not look smooth in preview due to there are 4 level of detail (LOD) meshes overlaping. Delete the 3 low detail meshes after model imported into Blender3D.
 
  The best model file format for exporting to Blender 3D is Noesis gltf format. It adds named prefix to exported files, that allows exporting all body parts to the same destination without texture name conflicting each others. 
 
