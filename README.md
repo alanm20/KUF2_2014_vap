@@ -4,9 +4,9 @@
  
  Preview *.vap model file with texture binding by alanm1
 
- Version 0.1:
- Support  2014 KUF 2 Asia client hero models (in Hero*.pkg files, they are not encrypted).
-
+ Version 0.1: Support 2014 KUF 2 Asia client hero models (in Hero*.pkg files, they are not encrypted).
+ Version 0.2: Add support for full character display and switching body part
+ 
  ## Credits:
    Luigi Auriemma:  KUF2 2014 pkg file unpack bms script     
   
