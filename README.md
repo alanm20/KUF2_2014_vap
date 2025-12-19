@@ -14,19 +14,39 @@
   
    Rich Whitehouse: Noesis tools
    
-  
+   Ekey: KUF2.PKG.Tool - Use his PkgHash function to match descriptive file name to unpacked .vap file
 ## Installation:
-   Copy this Noesis .py plugin to Noesis's plugins/python/ directory
+   Copy both fmt_kuf2_d3d9_vap.py and KUF2FileNames.txt to "Noesis"/plugins/python/ directory    
    
 ## Usage:
    Use QuickBMS and kuf2_2014.bms to unpack Hero*.pkg file to their own directory.
-   Most *.vap file contains textures and models. Each hero has a .dat file contains model/texture material assignments
+   Most *.vap file contains texture and model. Each hero has a .dat file contains model/texture assignment
 
- There are 5 hero characters:
+ There are 5 Heroes type:
 
- For Gunslinger(Glen):   copy *.dat from Hero3\ to Hero2\ , Use Noesis and browse Hero2 directory for model preview
- For Spellsword(Isabella) copy *.dat from Hero6\ to Hero5\, Use Noesis and browse Hero5 directory for model preview
- Follow same rule to preview the other 3 heroes. 
+ For Gunsliger(Glen):      copy Hero3\*.dat and repo's full_char\*.ksw to Hero2\ , Use Noesis and browse Hero2 directory for model preview
+ 
+ For Spellsword(Isabella)  copy Hero6\*.dat and repo's full_char\*.ksw to Hero5\, Use Noesis and browse Hero5 directory for model preview
+ 
+ Oliver  :                 copy Hero9\*.data and repo's full_char\*.ksw to Hero8\,  browse hero8
+ 
+ Regnier  :                copy Hero12\*.data and repo's full_char\*.ksw to Hero11\,  browse hero11
+ 
+ Regnier-test  :           copy Hero15\*.data and repo's full_char\*.ksw to Hero14\,  browse hero14
+
+ To display full character:
+ 
+ - In Noesis: double-click on _000_full_character.ksw file. It takes a few seconds to load a full character so be patient.
+     
+ - A kuf2_char_config.txt file will be created in the same directory as the *.vap file to record character configuration. It will be updated whenever double-clicking on a .ksw file to switch body part.       
+ 
+ - Double click on one of the _<number>_<part name>.ksw file to cycle through the options for a body part. Tt takes a few seconds to reload character.
+     
+ - Not all character have face/head/earring accessories support, those *_acc.ksw do not have any effect for some characters.
+     
+ - When a desired combination of character option is display in preview window, use Noesis "File|Export from Preview" menu to export character.
+
+ - Models may not look smooth in prview due to there are 4 level of detail (LOD) meshes overlaping. Delete the 3 low detail meshes after model imported into Blender3D.
 
  The best model file format for exporting to Blender 3D is Noesis gltf format. It adds named prefix to exported files, that allows exporting all body parts to the same destination without texture name conflicting each others. 
 
