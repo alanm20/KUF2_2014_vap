@@ -58,4 +58,10 @@
 
 ![alt text](https://github.com/alanm20/KUF2_2014_vap/blob/main/images/preview2.png?raw=true)
 
+![alt text](https://github.com/alanm20/KUF2_2014_vap/blob/main/images/character_customization.png?raw=true)
+
+![alt text](https://github.com/alanm20/KUF2_2014_vap/blob/main/images/glenn.png?raw=true)
+
+![alt text](https://github.com/alanm20/KUF2_2014_vap/blob/main/images/regnier.png?raw=true)
+
 ![alt text](https://github.com/alanm20/KUF2_2014_vap/blob/main/images/image.png?raw=true)
