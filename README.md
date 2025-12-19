@@ -28,11 +28,11 @@
  
  For Spellsword(Isabella)  copy Hero6\*.dat and repo's full_char\*.ksw to Hero5\, Use Noesis and browse Hero5 directory for model preview
  
- Oliver  :                 copy Hero9\*.data and repo's full_char\*.ksw to Hero8\,  browse hero8
+ Oliver  :                 copy Hero9\*.dat and repo's full_char\*.ksw to Hero8\,  browse hero8
  
- Regnier  :                copy Hero12\*.data and repo's full_char\*.ksw to Hero11\,  browse hero11
+ Regnier  :                copy Hero12\*.dat and repo's full_char\*.ksw to Hero11\,  browse hero11
  
- Regnier-test  :           copy Hero15\*.data and repo's full_char\*.ksw to Hero14\,  browse hero14
+ Regnier-test  :           copy Hero15\*.dat and repo's full_char\*.ksw to Hero14\,  browse hero14
 
  To display full character:
  
