@@ -24,7 +24,7 @@
 
  There are 5 Heroes type:
 
- For Gunsliger(Glen):      copy Hero3\\\*.dat and repo's full_char\\\*.ksw to Hero2\\, use Noesis and browse Hero2 directory for model preview
+ For Gunslinger(Glen):      copy Hero3\\\*.dat and repo's full_char\\\*.ksw to Hero2\\, use Noesis and browse Hero2 directory for model preview
  
  For Spellsword(Isabella)  copy Hero6\\\*.dat and repo's full_char\\\*.ksw to Hero5\\, use Noesis and browse Hero5 directory for model preview
  
