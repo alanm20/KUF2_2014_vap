@@ -40,7 +40,7 @@
      
  - A kuf2_char_config.txt file will be created in the same directory as the *.vap file to record character configuration. It will be updated whenever double-clicking on a .ksw file to switch body part.       
  
- - Double click on one of the _NUMBER_CHAR-PART.ksw file to cycle through the options for a body part. Tt takes a few seconds to reload character.
+ - Double click on one of the _NUMBER_CHAR-PART.ksw file to cycle through the options for a body part. IT takes a few seconds to reload the models.
      
  - Not all character have face/head/earring accessories support, those *_acc.ksw do not have any effect for some characters.
      
